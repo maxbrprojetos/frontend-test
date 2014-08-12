@@ -1,5 +1,5 @@
-var app = require('koa')();
-var common = require('koa-common');
+var app    = require('koa')(),
+    common = require('koa-common');
 
 app.use(common.static(__dirname + '/public'));
 
