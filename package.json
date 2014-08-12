@@ -1,0 +1,11 @@
+{
+  "name": "R7FrontendTest",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node --harmony app.js"
+  },
+  "dependencies": {
+    "koa": "^0.9.0",
+    "koa-common": "~1.2.0"
+  }
+}
