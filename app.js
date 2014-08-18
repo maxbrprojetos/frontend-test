@@ -1,8 +1,7 @@
-var app    = require('koa')(),
-    common = require('koa-common');
+var app         = require('connect')()
+var serveStatic = require('serve-static')
 
-app.use(common.static(__dirname + '/public'));
+app.use(serveStatic('public'))
 
-var server = app.listen(8000, function () {
-  console.log(' ➜  Listening on localhost:%d', server.address().port);
-});
+console.log(' ➜   Open: http://localhost:7007')
+app.listen(7007)
