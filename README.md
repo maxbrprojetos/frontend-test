@@ -13,7 +13,7 @@ de dados e matemática.
 
 
 
-Primeiramente, faça um fork e clone deste projeto, depois instale as
+Primeiramente, faça um fork e clone deste projeto, cria uma branch (pode ser com seu nome), depois instale as
 dependências:
 
     ``npm install``
@@ -30,6 +30,7 @@ construir a aplicação:
   * Apresentar os dados requisitados pelo layout.
   * Ordenar os dados primeiramente por posição e depois por quantidade de "positives" (caso a posição não esteja presente).
   * Calcular a porcentagem de "positives" e "negatives".
+3. Submeta o Pull Request! :D 
 
 Pontos Extras:
 
