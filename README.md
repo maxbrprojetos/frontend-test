@@ -1,4 +1,4 @@
-Sobre o R7.com
+### Sobre o R7.com
 R7.com, é um portal mantido pela Rádio e Televisão Record S/A, com quase
 5 anos de vida possui 50 milhões de visitantes únicos, e 1 bilhão e meio
 de pageviews mensalmente e conta coma uma equipe de quase 500 pessoas.
@@ -13,7 +13,7 @@ de dados e matemática.
 
 
 
-Primeiramente, faça um fork e clone deste projeto, cria uma branch (pode ser com seu nome), depois instale as
+Primeiramente, faça um fork e clone deste projeto, crie uma branch (pode ser com seu nome), depois instale as
 dependências:
 
     npm install
