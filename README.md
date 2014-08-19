@@ -16,11 +16,11 @@ de dados e matemática.
 Primeiramente, faça um fork e clone deste projeto, cria uma branch (pode ser com seu nome), depois instale as
 dependências:
 
-    ``npm install``
+    npm install
 
 Após isso, rode a aplicação:
 
-    ``npm start``
+    npm start
 
 Depois do seu setup você precisará seguir as seguintes instruções, para
 construir a aplicação:
@@ -28,8 +28,9 @@ construir a aplicação:
 1. Desenvolver a página, que tem o seu layout em **a-fazenda.psd**.
 2. Criar um script em JavaScript que faça uma requisição para **/fazenda.json**
   * Apresentar os dados requisitados pelo layout.
-  * Ordenar os dados primeiramente por posição e depois por quantidade de "positives" (caso a posição não esteja presente).
   * Calcular a porcentagem de "positives" e "negatives".
+  * Odernar os items do json a partir da porcentagem calculada.
+
 3. Submeta o Pull Request! :D 
 
 Pontos Extras:
