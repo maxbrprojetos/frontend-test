@@ -42,13 +42,7 @@ Pontos Extras:
 
 
 
-
-
-
-
-
-
-<sub>Os dados presentes neste teste são totalmente fictícios.</sub>
+<br><br><sub>Os dados presentes neste teste são totalmente fictícios.</sub>
 
 
 
