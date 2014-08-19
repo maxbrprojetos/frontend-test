@@ -29,7 +29,7 @@ construir a aplicação:
 2. Criar um script em JavaScript que faça uma requisição para **/fazenda.json**
   * Apresentar os dados requisitados pelo layout.
   * Calcular a porcentagem de "positives" e "negatives".
-  * Odernar os items do json a partir da porcentagem calculada.
+  * Ordernar os items do json a partir da porcentagem calculada.
 
 3. Submeta o Pull Request! :D 
 
