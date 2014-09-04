@@ -13,7 +13,7 @@ de dados e matemática.
 
 
 
-Primeiramente, faça um fork e clone deste projeto, crie uma branch (pode ser com seu nome), depois instale as
+Primeiramente, faça um fork e clone deste projeto, crie uma branch (pode ser com seu nome mesmo), depois instale as
 dependências:
 
     npm install
@@ -25,17 +25,24 @@ Após isso, rode a aplicação:
 Depois do seu setup você precisará seguir as seguintes instruções, para
 construir a aplicação:
 
-1. Desenvolver a página, que tem o seu layout em **a-fazenda.psd**.
+1. Desenvolver a página, que tem o seu layout em **a-fazenda.psd**.(A
+   única fonte usada foi a Montserrat, disponível no Google Fonts,
+use-a!)
 2. Criar um script em JavaScript que faça uma requisição para **/fazenda.json**
   * Apresentar os dados requisitados pelo layout.
   * Calcular a porcentagem de "positives" e "negatives".
   * Ordernar os items do json a partir da porcentagem calculada.
+3.  **NÃO** alterar o arquivo **fazenda.json**.Em hipótese nenhuma!
+4. Seguir estritamente o .psd.
+5. Suporte para IE 7+.
+6. Submeta o Pull Request! :D
 
-3. Submeta o Pull Request! :D 
 
 Pontos Extras:
 
-1. Utilizar algum framework JavaScript. (Usamos e amamos Backbone! <3)
+1. Se possível, escreva o código com BackboneJS, se não, use VanillaJS
+   mesmo que nós iremos avaliar do mesmo jeito! ;)
+   nós queremos ver seu código feito na mão!)
 2. Utilizar algum pré-processador CSS. (SASS FTW!)
 3. Testes, testes, testes!
 4. Automatizar as coisas. (Gulp? Grunt? :D)
