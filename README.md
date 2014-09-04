@@ -34,7 +34,7 @@ use-a!)
   * Ordernar os items do json a partir da porcentagem calculada.
 3.  **NÃO** alterar o arquivo **fazenda.json**. Em hipótese nenhuma!
 4. Seguir estritamente o .psd.
-5. Suporte para IE 7+.
+5. Suporte para IE8+.
 6. Submeta o Pull Request! :D
 
 <br>
