@@ -32,13 +32,13 @@ use-a!)
   * Apresentar os dados requisitados pelo layout.
   * Calcular a porcentagem de "positives" e "negatives".
   * Ordernar os items do json a partir da porcentagem calculada.
-3.  **NÃO** alterar o arquivo **fazenda.json**.Em hipótese nenhuma!
+3.  **NÃO** alterar o arquivo **fazenda.json**. Em hipótese nenhuma!
 4. Seguir estritamente o .psd.
 5. Suporte para IE 7+.
 6. Submeta o Pull Request! :D
 
-
-Pontos Extras:
+<br>
+**Pontos Extras**:
 
 1. Se possível, escreva o código com BackboneJS, se não, use VanillaJS
    mesmo que nós iremos avaliar do mesmo jeito! ;)
