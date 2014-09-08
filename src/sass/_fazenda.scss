@@ -1,0 +1,193 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat");
+
+$bg_list: #f2f1f1;
+$branco: #fff;
+$color_name: #CE3A3C;
+$color_description: #909090;
+$vermelho: $color_name;
+$cinza: $color_description;
+$font: 'Montserrat', Arial, serif; 
+$sprite: '../images/sprite.png'; 
+
+#testeR7 {
+	font-family: $font;
+	height:100%;
+	padding: 20px;
+	.wrap{
+		width: 342px;
+		margin: 0 auto;
+	}
+	.header{
+		margin-bottom: 8px;
+		position:relative;
+		height: 200px;
+		.logo{
+			position: absolute;
+			top: 10px;
+			left: -30px;
+			width: 185px;
+			height: 194px;
+			background: url($sprite) no-repeat -82px -12px;
+		}
+		.title{
+			margin-top: 137px;
+			float: right;
+			padding-right: 5px;
+			background: url("../images/sprite.png") no-repeat 280px -97px;
+			h1{
+				font-size: 30px;
+				line-height: 52px;
+				letter-spacing: -3px;
+				text-indent: 111px;
+				width: 280px;
+				background-color: $branco;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.appFazendaRank{
+		padding-top: 5px;
+			background: url("../images/sprite.png") no-repeat 0 -339px;
+			
+		.listArtists{
+			padding-bottom: 5px;
+			background: url("../images/sprite.png") no-repeat 0 515px;
+			li {
+				background-color: $branco;
+				position: relative;
+				height: 103px;
+				display: block;
+				a{
+					display: block;
+					height: 100%;
+					cursor: default;
+				}
+				.image {
+					float: left;
+					position: relative;
+				 	img {
+					 	width: 80px;
+						margin: 21px 7px 0 10px;
+					}
+				 	.position{
+				 		background: url($sprite) no-repeat 4px -216px;
+				 		position:absolute;
+				 		top: 0px;
+				 		left: 0px;
+				 		width: 100px;
+				 		height: 100px;
+				 		span{
+				 			font-size: 14px; 
+				 			position: absolute;
+							top: 71px;
+							left: 66px;
+							font-weight: bold;
+							color: #707070;
+				 		}
+				 	}
+				}
+
+				.item2, .item4{
+					background-color: $bg_list;
+					
+					.position{
+						background: url($sprite) no-repeat -128px -216px;
+					}	
+				}
+				
+				.text {
+				 	float: left;
+				 	margin-top: 30px;
+				 	h2{
+				 		color: $color_name;
+				 		font-size: 18px;
+				 		letter-spacing: -1px;
+				 		line-height: 26px;
+				 	}
+				 	p{
+				 		color: $color_description;
+				 		font-size: 12px;
+				 	}
+				}
+
+				a:hover{
+					background-color: $vermelho;
+
+					.text {
+					 	h2{
+					 		color: #f2f1f1;
+					 	}
+					 	p{
+					 		color: #330d0e;
+					 	}
+					}		
+
+					.position{
+						background: url($sprite) no-repeat -257px -218px;
+					}	
+				}
+
+				.tooltip{
+					visibility: hidden;
+				}
+				.percent {
+					position: absolute;
+					left: 350px;
+					top: 27px;
+					width: 200px;	
+					div {
+						float: left;				
+						text-align: center;
+						background-color: $branco;	
+					}
+					h6{
+						background-color: $vermelho;
+						color: $branco;
+						text-transform: uppercase;
+						line-height: 18px;
+						font-size: 10px;
+					}
+					span{
+						color: $cinza;
+						line-height: 31px;
+						font-size: 24px;
+						font-weight: bold;
+						letter-spacing: -3px;
+						
+					}
+					.positive{
+						width: 75px;
+						h6{
+							border-right: 1px solid #8c8b8b;		
+						}
+						span{
+							border-right: 1px solid #8c8b8b;
+							display: block;
+						}
+					}
+					.negative{
+						width: 100px;
+						h6{
+							border-left: 1px solid #c57071;		
+						}
+					}
+					.brdl, .brdr{
+						background: url($sprite) no-repeat; 
+						height: 50px;
+					}
+					.brdl{
+						width: 12px;
+						background-position: -338px -14px;
+					}
+					.brdr{
+						width: 7px;
+						background-position: 0px -14px; 
+					}
+
+
+				}
+			}
+		}
+	}
+}

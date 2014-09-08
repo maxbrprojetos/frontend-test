@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Andrews Sato - R7 FrontEnd Test </title>
+    
+    <!-- build:js js/support.min.js -->
+    <script src="js/html5/html5shiv.js"></script> 
+    <!-- endbuild -->
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css" media="all">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    
+    <div id="testeR7">
+      <header class="header wrap">
+        <div class="logo"></div>
+        <div class="title">
+          <h1>Ranking</h1></div>
+      </header>
+      <div class="appFazendaRank wrap"><!-- App A Fazenda com Backbonejs --></div>
+    </div>  
+    
+    <!-- build:js js/vendor.min.js -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/underscore.js"></script>
+    <script src="js/vendor/backbone.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js js/main.min.js -->
+    <script src="js/main.js"></script> 
+    <!-- endbuild -->
+
+    <script>
+      $(function(){
+        FazendaRank.start('#testeR7 .appFazendaRank'); 
+      });
+    </script>
+
+
+</html>

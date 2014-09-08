@@ -1,0 +1,8 @@
+@import "compass/reset";
+@import "_fazenda";
+
+$color_bg: #272727;
+
+body{
+	background-color: $color_bg;
+}
